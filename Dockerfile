@@ -1,5 +1,5 @@
-FROM alpine:3.6
-LABEL maintainer="Eugene Brodsky <eugene@teknogenik.com>"
+FROM alpine:3.9
+LABEL maintainer="Tilkal S.A.S"
 
 RUN rm -rf /var/cache/apk/* && apk update && \
     apk add --update rsyslog rsyslog-tls && \
